@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draggable List</title>
+<style>
+  .draggable-list {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin: 0;
+  }
+  .draggable-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    cursor: move; /* Change the cursor to indicate that this item can be moved */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .drag-handle {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+
+<p>Drag and drop items to reorder them in the course navigation.</p>
+
+<ul class="draggable-list">
+  <li><span>Home</span><span class="drag-handle">:::</span></li>
+  <li><span>Modules</span><span class="drag-handle">:::</span></li>
+  <li><span>Piazza</span><span class="drag-handle">:::</span></li>
+  <li><span>Zoom Meetings</span><span class="drag-handle">:::</span></li>
+  <li><span>Assignments</span><span class="drag-handle">:::</span></li>
+  <li><span>Quizzes</span><span class="drag-handle">:::</span></li>
+  <li><span>Grades</span><span class="drag-handle">:::</span></li>
+  <li><span>People</span><span class="drag-handle">:::</span></li>
+  <li><span>Panopto Video</span><span class="drag-handle">:::</span></li>
+</ul>
+
+
+
+<p>Drag items here to hide them from students.</p>
+
+<ul class="draggable-list">
+    <li>
+      <div>
+        <div class="item-title">Chat</div>
+        <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+      </div>
+      <span class="drag-handle">:::</span>
+    </li>
+    <li>
+        <div>
+          <div class="item-title">SCROM</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Attendance</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Barnes and Noble Bookstore</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Digication</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Top Hat</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Syllabus</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Perusall</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Microfost Teams Meetings</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+
+      <li>
+        <div>
+          <div class="item-title">FACT Reporting and Photo Roster</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Progress Reports(Navigate)</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Microsoft Teams for Canvas</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">VHL Central</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Gradescope 1.3</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Credentials</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">iClicker</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+  </ul>
+
+</body>
+</html>
+

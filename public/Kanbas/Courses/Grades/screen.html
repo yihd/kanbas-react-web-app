@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Table Layout</title>
+  <style>
+
+    table {
+      width: 100%; /* Set the table to span the full width of the container */
+    }
+    td {
+      vertical-align: top; /* Align content to the top of the cell */
+      
+    }
+    .left-column {
+        width: 250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+      justify-content: center; /* Center content horizontally */
+
+    }
+    .mid-column{
+        width:250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+        justify-content: center; /
+
+    }
+    .right-column {
+     
+      justify-content: center; /* Center content horizontally */
+    }
+    .left-column > *, .mid-column > *, .right-column > * {
+        margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <tbody>
+        <tr>
+          <td class="left-column">
+            <ul>
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">
+                       Account</a></li>
+                    <li>
+                     <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                    </li>
+                    <li>
+                     <a href="">Calendar</a></li>
+                    <li><a href="">Inbox</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Studio</a></li>
+                    <li><a href="">Commons</a></li>
+                    <li><a href="">Help</a></li>
+                   </ul>    
+                      
+              </ul>
+          </td>
+          <td class="mid-column">
+            <ul>
+                <li>
+                  <a href="/Kanbas/Courses/Home/screen.html">
+                    Home</a></li>
+                <li><a href="">
+                    Modules</a></li>
+                <li><a href="">
+                    Piazza</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html">
+                    Grades</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html">
+                    Assignments</a></li>
+                <li><a href="">
+                    ZoomMeetings</a></li>
+                <li><a href="">
+                    People</a></li>
+                <li><a href="">
+                    Panapto Video</a></li>
+                <li><a href="">
+                    Discussions</a></li>
+                <li><a href="">
+                    Announcements</a></li>
+                <li><a href="">
+                    Pages</a></li>
+                <li><a href="">
+                    Files</a></li>
+                <li><a href="">
+                    Rubrics</a></li>
+                <li><a href="">
+                    Outcomes</a></li>
+                <li><a href="">
+                    Collaborations</a></li>
+                <li><a href="">
+                    Syllabus</a></li>
+                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
+                    Settings</a></li>    
+                      
+              </ul>
+          </td>
+          <td class="right-column">
+            <select name="gradebook" id="gradebook-dropdown">
+                <option value="SCIFI" selected>Gradebook</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+            </select>
+            <button style="margin-right: 5px; background-color: #f0f0f0;">Import</button>
+            <select name="export" id="ExportItems">
+                <option value="SCIFI" selected>Export</option>
+                <option value="pdf">pdf</option>
+                <option value="word">word</option>
+            </select>
+            <button style="margin-right: 5px;background-color: #f0f0f0;">Configure</button>
+            </div>
+            <h2>Student Names</h2>
+        
+            <input type="StudentNames"
+                placeholder="Search Students"
+                id="studentsName"/><br/>
+                <h2 style="margin-top: 20px;">Assignment Names</h2>
+                <input type="assignmentName"
+                    placeholder="Search Assignments"
+                    id="assignmentName"/><br/>
+            
+            <button style="background-color: #f0f0f0; margin-top: 20px;">Apply Filters</button>
+            <style>
+            .gradebook-table {
+                width: 100%;
+                
+            }
+            .gradebook-table th, .gradebook-table td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            .gradebook-table input[type="text"] {
+                width: 50px;
+                text-align: center;
+            }
+            </style>
+        
+        
+            <h2 style="margin-top: 20px;">Gradebook Table</h2>
+            <table class = "gradebook-table">
+                <tr>
+                  <th>Student Name</th>
+                  <th>A1 SET UP</th>
+                  <th>A2 HTML</th>
+                  <th>A3 CSS</th>
+                  <th>A4 JAVASCRIPT</th>
+                </tr>
+                <tr>
+                  <td>Justin Bieber</td>
+                  <td><input type="text" value="95"></td>
+                  <td>88</td>
+                  <td>92</td>
+                  <td>91</td>
+                </tr>
+                <tr>
+                  <td>Taylor Swift</td>
+                  <td>93</td>
+                  <td><input type="text" value="99"></td>
+                  <td>89</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Kanye West</td>
+                  <td>79</td>
+                  <td>81</td>
+                  <td><input type="text" value="59"></td>
+                  <td>72</td>
+                </tr>
+                <tr>
+                  <td>Ariana Grande</td>
+                  <td>92</td>
+                  <td>87</td>
+                  <td>91</td>
+                  <td><input type="text" value="95"></td>
+                </tr>
+              </table>
+        
+        
+        
+          </td>
+
+          
+          
+        
+    </tr>
+</tbody>
+</table>
+</html>

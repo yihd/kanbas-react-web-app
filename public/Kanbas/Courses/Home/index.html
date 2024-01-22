@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Table Layout</title>
+  <style>
+
+    table {
+      width: 100%; /* Set the table to span the full width of the container */
+    }
+    td {
+      vertical-align: top; /* Align content to the top of the cell */
+      
+    }
+    .left-column {
+      width: 50%;
+      justify-content: center; /* Center content horizontally */
+      vertical-align: top;
+    }
+    .right-column {
+      width: 50%; 
+      justify-content: center; /* Center content horizontally */
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td class="left-column">
+            <div style="margin-bottom: 20px;">
+                <button style="margin-right: 5px;">Collapse All</button>
+                <button style="margin-right: 5px;">View Progress</button>
+                <select style="margin-right: 5px;">
+                  <option>Publish All</option>
+                </select>
+                <button style="margin-right:5px;">Module</button>
+              </div>
+              <ul>
+                <li> Week 0 - INTRO
+                  <ul>
+                    <li>LEARNING OBJECTIVES
+                        <ul>
+                            <li>Introduction to the course</li> 
+                            <li>Learn what is Web Development</li>
+                            <li>Create a development environment</li> 
+                            <li>Create a Web Application</li>
+                            <li>Getting started with the 1st assignment</li> 
+                        </ul>
+                    <li>READING
+                        <ul>
+                            <li>Full Stack Developer - Chapter 1 - Introduction</li>
+                            <li>Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                        </ul>
+                    </li>
+                    <li>Slides
+                        <ul>
+                            <li><a href="">Introduction to Web Development Links to an external site</a></li>
+                            <li><a href="">Creating an HTTP server with Node.js Links to an external site</a></li>
+                            <li><a href="">Creating a React Application Links to an external</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> Week 1 - HTML
+                    <ul>
+                        <li>LEARNING OBJECTIVES
+                            <ul>
+                                <li>Learn how to create user interfaces with HTML</li> 
+                                <li>Keep working on assignment 1</li>
+                                <li>Deploy the assignment to Netlify</li> 
+                            </ul>
+                        <li>READING
+                            <ul>
+                                <li>Full Stack Developer - Chapter 1 - Introduction</li>
+                                <li>Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                            </ul>
+                        </li>
+                        
+                      </ul>
+                    </li>
+        </td>
+        <td class="right-column">
+        <h2 style="margin-top: 0;">Course Status</h2>
+        <div style="margin-bottom: 20px;">
+          <button style="margin-right: 5px;">Unpublish</button>
+          <button style="margin-right: 5px;">Published</button>
+          </div>
+          <ul>
+            <li><a href="">Import Existing Content</a></li>
+            <li><a href="">Import From Commons</a></li>
+            <li><a href="">Choose Home Page</a></li>
+            <li><a href="">View Course Stream</a></li>
+            <li><a href="">New Announcement</a></li>
+            <li><a href="">New Analytics</a></li>
+            <li><a href="">View Course Notifications</a></li>
+            
+          </ul>
+          <h2>Comming Up</h2>
+          <li> <a href="">View Calendar</a></li>
+            <ul>
+                <li><a href="">Lecture CS4550.12631.202410 Sep 7 at 11:45 am</a></li>
+                <li><a href="">Lecture CS4550.12631.202410 Sep 7 at 11:45 am</a></li>
+                <li><a href="">CS5610 06 SP23 Lecture Sep 11 at 6pm</a></li>
+            </ul>
+
+                
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+  

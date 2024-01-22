@@ -1,0 +1,88 @@
+<div style="margin-bottom: 20px;">
+    <!-- Dropdown menu for Gradebook -->
+    <select name="gradebook" id="gradebook-dropdown">
+        <option value="SCIFI" selected>Gradebook</option>
+        <option value="1st">1st</option>
+        <option value="2nd">2nd</option>
+    </select>
+<button style="margin-right: 5px; background-color: #f0f0f0;">Import</button>
+<select name="export" id="ExportItems">
+    <option value="SCIFI" selected>Export</option>
+    <option value="pdf">pdf</option>
+    <option value="word">word</option>
+</select>
+<button style="margin-right: 5px;background-color: #f0f0f0;">Configure</button>
+</div>
+<h2>Student Names</h2>
+
+
+    <input type="StudentNames"
+        placeholder="Search Students"
+        id="studentsName"/><br/>
+    <h2 style="margin-top: 20px;">Assignment Names</h2>
+        <input type="assignmentName"
+            placeholder="Search Assignments"
+            id="assignmentName"/><br/>
+
+    <button style="background-color: #f0f0f0; margin-top: 20px;">Apply Filters</button>
+
+
+<h2 style="margin-top: 20px;">Gradebook Table</h2>
+
+<style>
+  table {
+    width: 100%;
+    
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 50px;
+    
+    text-align: center;
+  }
+</style>
+</head>
+
+
+<table>
+  <tr>
+    <th>Student Name</th>
+    <th>A1 SET UP</th>
+    <th>A2 HTML</th>
+    <th>A3 CSS</th>
+    <th>A4 JAVASCRIPT</th>
+  </tr>
+  <tr>
+    <td>Justin Bieber</td>
+    <td><input type="text" value="95"></td>
+    <td>88</td>
+    <td>92</td>
+    <td>91</td>
+  </tr>
+  <tr>
+    <td>Taylor Swift</td>
+    <td>93</td>
+    <td><input type="text" value="99"></td>
+    <td>89</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>Kanye West</td>
+    <td>79</td>
+    <td>81</td>
+    <td><input type="text" value="59"></td>
+    <td>72</td>
+  </tr>
+  <tr>
+    <td>Ariana Grande</td>
+    <td>92</td>
+    <td>87</td>
+    <td>91</td>
+    <td><input type="text" value="95"></td>
+  </tr>
+</table>
+

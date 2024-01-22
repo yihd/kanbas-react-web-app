@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Table Layout</title>
+  <style>
+
+    table {
+      width: 100%; /* Set the table to span the full width of the container */
+    }
+    td {
+      vertical-align: top; /* Align content to the top of the cell */
+      
+    }
+    .left-column {
+        width: 250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+      justify-content: center; /* Center content horizontally */
+
+    }
+    .mid-column{
+        width:250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+        justify-content: center; /
+
+    }
+    .right-column {
+     
+      justify-content: center; /* Center content horizontally */
+    }
+    .left-column > *, .mid-column > *, .right-column > * {
+        margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <tbody>
+        <tr>
+          <td class="left-column">
+            <ul>
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">
+                       Account</a></li>
+                    <li>
+                     <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                    </li>
+                    <li>
+                     <a href="">Calendar</a></li>
+                    <li><a href="">Inbox</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Studio</a></li>
+                    <li><a href="">Commons</a></li>
+                    <li><a href="">Help</a></li>
+                   </ul>    
+                      
+              </ul>
+          </td>
+          <td class="mid-column">
+            <ul>
+                <li>
+                  <a href="/Kanbas/Courses/Home/screen.html">
+                    Home</a></li>
+                <li><a href="">
+                    Modules</a></li>
+                <li><a href="">
+                    Piazza</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html">
+                    Grades</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html">
+                    Assignments</a></li>
+                <li><a href="">
+                    ZoomMeetings</a></li>
+                <li><a href="">
+                    People</a></li>
+                <li><a href="">
+                    Panapto Video</a></li>
+                <li><a href="">
+                    Discussions</a></li>
+                <li><a href="">
+                    Announcements</a></li>
+                <li><a href="">
+                    Pages</a></li>
+                <li><a href="">
+                    Files</a></li>
+                <li><a href="">
+                    Rubrics</a></li>
+                <li><a href="">
+                    Outcomes</a></li>
+                <li><a href="">
+                    Collaborations</a></li>
+                <li><a href="">
+                    Syllabus</a></li>
+                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
+                    Settings</a></li>    
+                      
+              </ul>
+          </td>
+          <td class="right-column">
+            <a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
+                <button style="background-color: #f0f0f0; font-weight: bold;">Course Details</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+                <button style="background-color: #f0f0f0; font-weight: bold;">Sections</button>
+            </a>
+            <a href="/Kanbas/Courses/Settings/Navigation/screen.html">
+                <button style="background-color: #f0f0f0; font-weight: bold;">Navigation</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+                <button style="background-color: #f9f9f9; font-weight: bold;">Apps</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+                <button style="background-color: #f0f0f0; font-weight: bold;">Feature Options</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+                <button style="background-color: #f0f0f0; font-weight: bold;">Integration</button>
+            </a>
+            <title>Draggable List</title>
+<style>
+  .draggable-list {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin: 0;
+  }
+  .draggable-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    cursor: move; /* Change the cursor to indicate that this item can be moved */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .drag-handle {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+
+<p>Drag and drop items to reorder them in the course navigation.</p>
+
+<ul class="draggable-list">
+  <li><span>Home</span><span class="drag-handle">:::</span></li>
+  <li><span>Modules</span><span class="drag-handle">:::</span></li>
+  <li><span>Piazza</span><span class="drag-handle">:::</span></li>
+  <li><span>Zoom Meetings</span><span class="drag-handle">:::</span></li>
+  <li><span>Assignments</span><span class="drag-handle">:::</span></li>
+  <li><span>Quizzes</span><span class="drag-handle">:::</span></li>
+  <li><span>Grades</span><span class="drag-handle">:::</span></li>
+  <li><span>People</span><span class="drag-handle">:::</span></li>
+  <li><span>Panopto Video</span><span class="drag-handle">:::</span></li>
+</ul>
+
+
+
+<p>Drag items here to hide them from students.</p>
+
+<ul class="draggable-list">
+    <li>
+      <div>
+        <div class="item-title">Chat</div>
+        <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+      </div>
+      <span class="drag-handle">:::</span>
+    </li>
+    <li>
+        <div>
+          <div class="item-title">SCROM</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Attendance</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Barnes and Noble Bookstore</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Digication</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Top Hat</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Syllabus</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Perusall</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Microfost Teams Meetings</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+
+      <li>
+        <div>
+          <div class="item-title">FACT Reporting and Photo Roster</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Progress Reports(Navigate)</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Microsoft Teams for Canvas</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">VHL Central</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Gradescope 1.3</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">Credentials</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+      <li>
+        <div>
+          <div class="item-title">iClicker</div>
+          <div style="font-size: smaller;" class ="item-description">Page disabled, won't appear in navigation</div>
+        </div>
+        <span class="drag-handle">:::</span>
+      </li>
+  </ul>
+
+</body>
+        
+        
+        
+          </td>
+
+          
+          
+        
+    </tr>
+</tbody>
+</table>
+</html>

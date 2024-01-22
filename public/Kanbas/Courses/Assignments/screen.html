@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Table Layout</title>
+  <style>
+
+    table {
+      width: 100%; /* Set the table to span the full width of the container */
+    }
+    td {
+      vertical-align: top; /* Align content to the top of the cell */
+      
+    }
+    .left-column {
+        width: 250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+      justify-content: center; /* Center content horizontally */
+
+    }
+    .mid-column{
+        width:250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+        justify-content: center; /
+
+    }
+    .right-column {
+     
+      justify-content: center; /* Center content horizontally */
+    }
+    .left-column > *, .mid-column > *, .right-column > * {
+        margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <tbody>
+        <tr>
+          <td class="left-column">
+            <ul>
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">
+                       Account</a></li>
+                    <li>
+                     <a href="">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                    </li>
+                    <li>
+                     <a href="">Calendar</a></li>
+                    <li><a href="">Inbox</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Studio</a></li>
+                    <li><a href="">Commons</a></li>
+                    <li><a href="">Help</a></li>
+                   </ul>    
+                      
+              </ul>
+          </td>
+          <td class="mid-column">
+            <ul>
+                <li>
+                  <a href="/Kanbas/Courses/Home/screen.html">
+                    Home</a></li>
+                <li><a href="">
+                    Modules</a></li>
+                <li><a href="">
+                    Piazza</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html">
+                    Grades</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html">
+                    Assignments</a></li>
+                <li><a href="">
+                    ZoomMeetings</a></li>
+                <li><a href="">
+                    People</a></li>
+                <li><a href="">
+                    Panapto Video</a></li>
+                <li><a href="">
+                    Discussions</a></li>
+                <li><a href="">
+                    Announcements</a></li>
+                <li><a href="">
+                    Pages</a></li>
+                <li><a href="">
+                    Files</a></li>
+                <li><a href="">
+                    Rubrics</a></li>
+                <li><a href="">
+                    Outcomes</a></li>
+                <li><a href="">
+                    Collaborations</a></li>
+                <li><a href="">
+                    Syllabus</a></li>
+                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
+                    Settings</a></li>    
+                      
+              </ul>
+          </td>
+          <td class="right-column">
+            <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 5px;">
+                <input type="text" placeholder="Search for Assignments" id="assignmentName"/>
+                <button style="background-color: #f0f0f0;">Group</button>
+                <button style="background-color: #f0f0f0;">Assignment</button>
+                <select name="assignmentDates" id="EditAssignmentDates">
+                    <option value="AssignmentDue" selected>Edit Assignment Dates</option>
+                    <option value="GroupsWeight">Assignment Groups Weight</option>
+                    <option value="Gradescope1.3">GradeScope 1.3</option>
+                    <option value="CommonFavorites">Common Favorites</option>
+                </select>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+            <h2>ASSIGNMENT 40% of Total</h2><select name="assignmentEdit" id="assignmentEdit">
+                <option value="AssignmentDue" selected>Edit</option>
+                <option value="grade">Speed Grader</option>
+                <option value="Duplicate">Duplicate</option>
+                <option value="Delete">Delete</option>
+                <option value="Move_to">Move to...</option>
+                <option value="Send_to">Send to...</option>
+                <option value="Copy_to">Copy to...</option>
+                <option value="Share">Share to Commons</option>
+            </select>
+            </div>
+            <ul>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A1 - ENV + HTML multiple Module</a> | Not available yet</li>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A2 - CSS + BOOTSTRAP Multiple Modules</a> | Not available yet</li>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A3 - JS + REACT Multiple Modules</a> | Not available yet</li>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A4 - STATE + REDUX Multiple Modules</a> | Not available yet</li>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A5 - NODE + SESSION Multiple Modules</a> | Not available yet</li>
+                <li><a href="/Kanbas/Courses/Assignments/Edit/screen.html">
+                    A6 - MONGO + MONGOOSE Multiple Modules</a> | Not available yet</li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <h2>QUIZZES 10% of Total</h2><select name="quizzesEdit" id="quizzesEdit">
+                    <option value="AssignmentDue" selected>Edit</option>
+                    <option value="grade">Speed Grader</option>
+                    <option value="Duplicate">Duplicate</option>
+                    <option value="Delete">Delete</option>
+                    <option value="Move_to">Move to...</option>
+                    <option value="Send_to">Send to...</option>
+                    <option value="Copy_to">Copy to...</option>
+                    <option value="Share">Share to Commons</option>
+                </select>
+                </div>
+                <ul>
+                    <li><a href="">
+                        Q1 - HTML multiple Module</a> | Not available yet</li>
+                    <li><a href="">
+                        Q2 - CSS Multiple Modules</a> | Not available yet</li>
+                    <li><a href="">
+                        Q3 - JS.ES6 Multiple Modules</a> | Not available yet</li>
+                    <li><a href="">
+                        Q4 - Node Multiple Modules</a> | Not available yet</li>
+                    <li><a href="">
+                        Q5 - MONGO Multiple Modules</a> | Not available yet</li>
+                </ul>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <h2>EXAMS 20% of Total</h2><select name="examsEdit" id="examsEdit">
+                        <option value="AssignmentDue" selected>Edit</option>
+                        <option value="grade">Speed Grader</option>
+                        <option value="Duplicate">Duplicate</option>
+                        <option value="Delete">Delete</option>
+                        <option value="Move_to">Move to...</option>
+                        <option value="Send_to">Send to...</option>
+                        <option value="Copy_to">Copy to...</option>
+                        <option value="Share">Share to Commons</option>
+                    </select>
+                    </div>
+                    <ul>
+                        <li><a href="">
+                            Midterm multiple Module</a> | Not available yet</li>
+                        <li><a href="">
+                            Final Multiple Modules</a> | Not available yet</li>
+                    </ul>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <h2>PROJECTS 30% of Total</h2><select name="projectEdit" id="projectEdit">
+                            <option value="AssignmentDue" selected>Edit</option>
+                            <option value="grade">Speed Grader</option>
+                            <option value="Duplicate">Duplicate</option>
+                            <option value="Delete">Delete</option>
+                            <option value="Move_to">Move to...</option>
+                            <option value="Send_to">Send to...</option>
+                            <option value="Copy_to">Copy to...</option>
+                            <option value="Share">Share to Commons</option>
+                        </select>
+                        </div>
+                        <ul>
+                            <li><a href="">
+                                Project multiple Module</a> | Not available yet</li>
+                        </ul>
+        
+        
+          </td>
+
+          
+          
+        
+    </tr>
+</tbody>
+</table>
+</html>

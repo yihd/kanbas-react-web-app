@@ -1,0 +1,125 @@
+<h2>Huidi Wang</h2>
+<div>
+    <label for="Name" style="display: inline-block; margin-right: 5px;">Name</label>
+    <input type="text" id="Name" style="display: inline-block; width: 120px; font-size: 14px; margin-right: 20px;"/>
+
+    <label for="PronouncesType" style="display: inline-block; margin-right: 5px;">Pronounces</label>
+    <select name="PronouncesType" id="PronouncesType" style="display: inline-block; font-size: 14px;">
+        <option value="PronounceType" selected>None</option>
+        <option value="PronounceType">she/Her</option>
+        <option value="PronounceType">he/His</option>
+        <option value="PronounceType">they/them</option>
+        <option value="PronounceType">she/They</option>
+        <option value="PronounceType">he/They</option>
+        <option value="PronounceType">he/she/they</option>
+    </select>
+</div>
+
+
+<div>
+    <label for="title" style="display: inline-block; margin-right: 5px;">Title</label>
+    <input type="text" id="title" style="display: inline-block; width: 120px; font-size: 14px;"/>
+</div>
+
+<h2>
+    Contact<br/>
+</h2>
+    <p>No registered services.</p>
+
+<h2>
+    Biography<br/>
+</h2>
+    
+    <div>    
+        <textarea id="Description"
+                  placeholder=""
+                  rows="4" cols="50"></textarea>   
+    <div>
+
+<h2>
+    Links<br/>
+</h2>
+
+<style>
+    .container {
+        display: flex;
+        align-items: flex-start;
+        width: 10%;
+        padding: 10px;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px; /* Adjust the margin as needed */
+        flex-grow: 1;
+        
+        
+    }
+
+    .input-container label {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .input-container input {
+        border: 1px solid #ccc;
+        padding: 8px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .arrow {
+        padding-top: 30px; /* Aligns the arrow with the input boxes */
+        font-size: 24px; /* Adjust size as needed */
+        margin-right: 10px; /* Adjust the margin as needed */
+        margin-left: 10px; /* Adjust the margin as needed */
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="input-container">
+        <label for="title">TITLE</label>
+        <input type="text" id="title" value="YouTube" />
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="input-container">
+        <label for="url">URL</label>
+        <input type="text" id="url" value="https://www.youtube.com" />
+    </div>
+
+</div>
+
+<div>
+    <!-- Correctly wrap the button with the anchor tag -->
+    <a href="#">
+        <button style="background-color: #f0f0f0; font-weight: bold;">Add another link</button>
+    </a>
+</div>
+
+<div>
+    <!-- Correctly wrap the button with the anchor tag -->
+    <a href="#">
+        <button style="background-color: #f0f0f0; font-weight: bold;">Cancel</button>
+    </a>
+    <!-- Correctly wrap the button with the anchor tag -->
+    <a href="/Kanbas/Account/Profile/screen.html">
+        <button style="background-color: #f0f0f0; font-weight: bold;">Save Profile</button>
+    </a>
+</div>
+
+<div>
+    <!-- Correctly wrap the button with the anchor tag -->
+    <a href="#">
+        <button style="background-color: #f0f0f0; font-weight: bold;">Edit Profile</button>
+    </a>
+    <!-- Correctly wrap the button with the anchor tag -->
+    <a href="/Kanbas/Account/Profile/screen.html">
+        <button style="background-color: #f0f0f0; font-weight: bold;">Save Editing</button>
+    </a>
+</div>

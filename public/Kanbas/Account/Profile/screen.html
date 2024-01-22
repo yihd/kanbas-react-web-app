@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Table Layout</title>
+  <style>
+
+    table {
+      width: 100%; /* Set the table to span the full width of the container */
+    }
+    td {
+      vertical-align: top; /* Align content to the top of the cell */
+      
+    }
+    .left-column {
+        width: 250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+      justify-content: center; /* Center content horizontally */
+
+    }
+    .mid-column{
+        width:250px; /* Fixed width for the left column */
+      flex-shrink: 0;
+        justify-content: center; /
+
+    }
+    .right-column {
+     
+      justify-content: center; /* Center content horizontally */
+    }
+    .left-column > *, .mid-column > *, .right-column > * {
+        margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <tbody>
+        <tr>
+          <td class="left-column">
+            <ul>
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">
+                       Account</a></li>
+                    <li>
+                     <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                    </li>
+                    <li>
+                     <a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                   </ul>    
+                      
+              </ul>
+          </td>
+          <td class="mid-column">
+            <ul>
+                <li><a href="#">
+                   Notifications</a></li>
+                <li>
+                 <a href="/Kanbas/Account/profile/screen.html">Profile</a>
+                </li>
+                <li>
+                 <a href="#">Files</a>
+                </li>
+                <li>
+                 <a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Settings</a></li>
+                <li><a href="#">ePortfolios</a></li>
+                <li><a href="#">Shared Content</a></li>
+                <li><a href="#">The hub</a></li>
+                <li><a href="#">Quickly Course Tools</a></li>
+                <li><a href="#">Global Announcements</a></li>
+               </ul>
+          </td>
+          <td class="right-column">
+            <p>Huidi Wang's Profile</p>
+        
+            <div style="display: flex; align-items: center;">
+                <h1>Huidi Wang</h1>
+        
+                <a href="#">
+                    <button style="background-color: #f0f0f0; margin-right: 20px;">Cancel Editing</button>
+                </a>
+                
+                <!-- Corrected the link placement and combined the style attributes for "Edit Profile" button -->
+                <a href="/Kanbas/Account/Profile/Edit/index.html">
+                    <button style="background-color: #f0f0f0; margin-left: 20px;">Edit Profile</button>
+                </a>
+            </div>
+        
+            <h2>
+                Contact<br/>
+            </h2>
+                <p>No registered services.</p>
+        
+            <h2>
+                Biography<br/>
+            </h2>
+                <p>Computer Science align student</p>
+        
+            <h2>
+                Links<br/>
+            </h2>
+                <p>Not available</p>
+        </td>
+
+          
+          
+        
+    </tr>
+</tbody>
+</table>
+</html>
+
+

@@ -1,0 +1,176 @@
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f0f0f0; font-weight: bold;">Course Details</button>
+</a>
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f0f0f0; font-weight: bold;">Sections</button>
+</a>
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f0f0f0; font-weight: bold;">Navigation</button>
+</a>
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f9f9f9; font-weight: bold;">Apps</button>
+</a>
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f0f0f0; font-weight: bold;">Feature Options</button>
+</a>
+<a href="/Kanbas/Courses/Assignments/screen.html">
+    <button style="background-color: #f0f0f0; font-weight: bold;">Integration</button>
+</a>
+<p>Name: CS 5610 Web Development</p>
+<p>Blueprint Course: No</p>
+<p>Course Template: Enable course as a Course Template</p>
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Time Zone:</p>
+    <select name="timeZones" id="timeZones">
+        <option value="EST">Eastern Standard Time (EST)</option>
+        <option value="CST">Central Standard Time (CST)</option>
+        <option value="MST">Mountain Standard Time (MST)</option>
+        <option value="PST">Pacific Standard Time (PST)</option>
+        <option value="AKST">Alaska Standard Time (AKST)</option>
+        <option value="HST">Hawaii-Aleutian Standard Time (HST)</option>
+    </select>
+</div>
+
+<p>Course Template: Enable course as a Course Template</p>
+<p>SIS ID: CS5610</p>
+<p>Subaccount: CS grad</p>
+<p>Term: Spring 2024 Semester</p>
+<div style="display: flex; flex-direction: column;">
+
+    <!-- Participation Section -->
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <p style="width: 120px; margin: 0; margin-right: 10px;">Participation:</p>
+        <select name="Participation" id="Participation">
+            <option value="term">Term</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <!-- Start Date Section -->
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <label for="start_date" style="width: 120px; margin-right: 10px;">Start:</label>
+        <input type="date" id="start_date"/>
+    </div>
+
+    <!-- End Date Section -->
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <label for="end_date" style="width: 120px; margin-right: 10px;">End:</label>
+        <input type="date" id="end_date"/>
+    </div>
+
+</div>
+
+
+
+    <br/>
+    <input type="checkbox" value="restriction"
+        name="studentView" id="studentViewStart"/>
+    <label for="chkbox-view_start">Restrict students from viewing course before term start date</label>    <br/>
+
+    <br/>
+    <input type="checkbox" value="restriction"
+        name="studentView" id="studentViewEnd"/>
+    <label for="chkbox-view_end">Restrict students from viewing course after term end date</label>    <br/>
+<br/>
+<br/>
+<br/>
+<div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 20px;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.1px;">
+        <label for="due_time" style="margin-right: 10px;">Default due time:</label>
+        <select id="due_time" style="text-decoration: underline;">
+            <option value="default">Account default (11:59pm)</option>
+            <!-- Add other options here -->
+        </select>
+    </div>
+    <div>
+        
+        <p style=" margin-top: 0.5px; margin-left:125px; font-size:smaller">This influences the user interface for setting due dates. It does not change the time due for any existing assignments.</p>
+    </div>
+</div>
+
+
+<div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 20px;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.1px;">
+        <label for="language" style="margin-right: 10px;">Language:</label>
+        <select id="language" style="text-decoration: underline;">
+            <option value="default">English</option>
+            <option value="Spanish">Spanish</option>
+        </select>
+    </div>
+    <div>
+        
+        <p style=" margin-top: 0.5px; margin-left:85px; font-size:smaller">This will override any user/system language preferences.</p>
+    </div>
+</div>
+
+<p>File Storage: 10000 megabytes</p>
+
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Large Course:</p>
+    <input type="checkbox" value="LargeCourse" name="LargeCourse" id="LargeCourse" style="margin-right: 5px;">
+    <label for="LargeCourse">Launch SpeedGrader Filtered by Student Group</label>
+</div>
+<br/>
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Grading Scheme:</p>
+    <input type="checkbox" value="LargeCourse" name="GradingScheme" id="GradingScheme" style="margin-right: 5px;">
+    <label for="GradingScheme">Enable course grading scheme</label>
+</div> 
+<br/>
+
+<div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 20px;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.1px;">
+        <label for="License" style="margin-right: 10px;">License:</label>
+        <select id="License" style="text-decoration: underline;">
+            <option value="default">Private</option>
+            <option value="Spanish">Public</option>
+        </select>
+    </div>
+    <div>
+<br/>
+
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">File Copyright:</p>
+    <input type="checkbox" value="fileCopy" name="fileCopy" id="fileCopy" style="margin-right: 5px;">
+    <label for="fileCopy">Copyright and license information must be provided for files before they are published</label>
+</div>
+
+<div>
+    <div style="display: flex; align-items: center; margin-bottom: 0px;">
+        <p style="margin: 0; margin-right: 10px;">Visibility:</p>
+        <p>If you need to make your course public please contact your administrator/support</p>
+    </div>
+    <div>
+        <select name="visibility" id="visibility" style="margin-left: 70px; margin-top:-15px">
+            <option value="Course">Course</option>
+            <option value="otherVisibility">Other</option>
+        </select>
+    </div>
+    <input type="checkbox" value="masteryPaths" name="masteryPaths" id="masteryPaths" style="margin-left: 75px;">
+    <label for="masteryPaths">Include this ccourse in the public course index</label>
+</div>
+<br/>
+
+
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Format:</p>
+    <select name="format" id="format">
+        <option value="onCamppus">On-campus</option>
+        <option value="online">Online</option>
+    </select>
+</div>
+<br/>
+
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Mastery Paths:</p>
+    <input type="checkbox" value="masteryPaths" name="masteryPaths" id="masteryPaths" style="margin-right: 5px;">
+    <label for="masteryPaths">Enable individual learning paths for students based on assessments</label>
+</div> 
+<br/>
+
+<div style="display: flex; align-items: center;">
+    <p style="margin: 0; margin-right: 10px;">Description: </p>   
+    <textarea id="Description"
+              placeholder=""
+              rows="4" cols="50"></textarea>   
+<div>
