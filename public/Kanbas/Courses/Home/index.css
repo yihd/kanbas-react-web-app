@@ -1,0 +1,92 @@
+.d-flex {
+    display: flex;
+}
+
+.kanbas-nav{
+    flex: 0 0 auto; /* Do not grow or shrink */
+}
+
+.course-home {
+    flex-grow: 1; /* Grow to fill available space */
+    margin-right: 20px; /* Add margin to the right for spacing */
+    padding: 10px; /* Add padding inside the element for additional space */
+    margin-top: 0px;
+}
+.course-status{
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.course-nav{
+    margin-top: 0px;
+}
+
+.hamburger-btn {
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes the border */
+    outline: none; /* Removes the outline */
+    padding: 5px; /* Adds some space around the icon */
+    border-radius: 5px; /* Optional: Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    margin-bottom: 0px;
+    margin-left: 23px;
+    margin-top: 0px;
+}
+
+/* Styles for the icon */
+.hamburger-btn i {
+    
+    font-size: 28px; /* Sets the size of the bars */
+}
+
+.offcanvas-header {
+    
+    color: red;
+}
+
+.offcanvas-title {
+    flex-grow: 1;
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+
+.nav-link {
+    color: #f05454; /* Customize with your color */
+    margin-left: 10px;
+}
+
+.nav-link i {
+    width: 25px; /* Ensure all icons align nicely */
+}
+
+.nav-item {
+    margin-top: 10px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #f05454; /* Customize with your color */
+}
+
+/* Custom close button color */
+
+/* Hover effects for nav links */
+.nav-link:hover {
+    color: #d14343; /* Darker shade for hover state */
+}
+
+/* Spacing for icons */
+.nav-link i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+
+.btn-close {
+    position: absolute; /* Position the button absolutely within its parent */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    filter: invert(1) grayscale(100%) brightness(200%); /* Your existing filter styles */
+}
+

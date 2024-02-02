@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table Layout</title>
+        <link rel="stylesheet" href="../../styles.css" />
+        <link rel="stylesheet" href="../../Navigation/index.css" /> 
+        
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="stylesheet" href="../Navigation/index.css" />
+
+
+        <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link
+              href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+              rel="stylesheet"
+      />
+
+      <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+      <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="./index.css" />
+
+
+
+      
+      
+    </head>
+
+<body>
+    
+<table>
+  <tbody>
+    <tr>
+      <td class="left-column">
+        
+
+
+<ul class="wd-kanbas-navigation">
+  <li><a href="http://northeastern.edu">N</a></li>
+  <li><a href="/Kanbas/Account/Profile/screen.html">
+    <i class = "fa fa-user-circle"></i> Account</a></li>
+  <li class="wd-active">
+    <a href="/Kanbas/Dashboard/screen.html">
+      <i class="fa fa-tachometer"></i> Dashboard</a>
+  </li>
+  <li><a href="/Kanbas/Courses/Home/screen.html">
+    <i class="fa fa-book"></i>Courses</a> </li>
+  <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+  
+    
+    <li>
+      <a href="#">
+        <i class="fa fa-inbox icon-block"></i>
+        <span class="icon-block"></span>
+        Inbox
+      </a>
+    </li>
+
+  <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+  <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
+  <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
+  <li><a href="#"><i class="fa fa-question-circle"></i>
+    <span class="icon-block">Help</span></a></li>
+</ul>
+      </td>
+      <td class="mid-column">
+        <div class="navigation-toggle-buttons">
+            <div id="kanbasNavToggle" class="kanbas-toggle">
+              <i class="fa fa-bars"></i> <!-- Sandwich icon for the Kanbas Navigation -->
+            </div>
+            <div id="courseNavToggle" class="course-toggle">
+              <i class="fa fa-chevron-right"></i> <!-- Chevron icon for the Course Navigation -->
+            </div>
+          </div>
+            <ul class="wd-navigation">
+              <li>
+                <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+              <li class="wd-active">
+                <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+              </li>
+              <li><a href="http://piazza.com">Piazza</a></li>
+              <li><a href="#">Zoom</a></li>
+              <li>
+                <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+              </li>
+              <li><a href="#">Quizzes</a></li>
+              <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+              <li><a href="#">People</a></li>
+            </ul>
+    
+      </td>
+      <td class="right-column">
+        <ul class="list-group wd-modules">
+            <li class="list-group-item">
+              <div>
+                <i class="fa fa-ellipsis-v"></i> Week 1
+                <span class="float-end">
+                  <i class="fa fa-check-circle text-success"></i>
+                  <i class="fa fa-plus ms-2"></i>
+                  <i class="fa fa-ellipsis-v ms-2"></i>
+                </span>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fa fa-ellipsis-v"></i> Learning Objectives
+                  <span class="float-end">
+                    <i class="fa fa-check-circle text-success"></i>
+                    <i class="fa fa-ellipsis-v ms-2"></i>
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li class="list-group-item">
+              <div>
+                <i class="fa fa-ellipsis-v"></i> Week 2
+                <span class="float-end">
+                  <i class="fa fa-check-circle text-success"></i>
+                  <i class="fa fa-plus ms-2"></i>
+                  <i class="fa fa-ellipsis-v ms-2"></i>
+                </span>
+              </div>
+            </li>
+          </ul>
+    
+    
+    
+      </td>
+      <td class="last-column">
+        <h2>Course Status</h2>
+        <input type="radio" value="Unpublished" name="courseStatus" id="Unpublished"/>
+        <label for="Unpublished">Unpublished</label>
+        <input type="radio" value="Published" name="courseStatus" id="Published"/>
+        <label for="Published">Published</label><br/>
+        <div class="sidebar">
+        <br/>
+        
+        <ul class="sidebar-menu">
+            <li><i class="fas fa-stream"></i> View Course Stream</li>
+            <li><i class="fas fa-chart-bar"></i> New Analytics</li>
+            <li><i class="fas fa-calendar-alt"></i> View Course Calendar</li>
+            <li><i class="fas fa-bell"></i> View Course Notifications</li>
+        </ul>
+        <div class="sidebar-section">
+            <h2>To Do</h2>
+            <p>Nothing for now</p>
+        </div>
+        <div class="sidebar-section">
+            <h2>Recent Feedback</h2>
+            <p>Nothing for now</p>
+        </div>
+    </div>
+    </td>
+
+    
+      
+    
+</tr>
+</tbody>
+</table>
+</html>

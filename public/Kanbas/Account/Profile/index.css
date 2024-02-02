@@ -1,0 +1,29 @@
+table {
+    width: 100%; /* Set the table to span the full width of the container */
+  }
+  td {
+    vertical-align: top; /* Align content to the top of the cell */
+    
+  }
+  .left-column {
+      width: 250px; /* Fixed width for the left column */
+    flex-shrink: 0;
+    justify-content: center; /* Center content horizontally */
+  
+
+  }
+  .mid-column{
+      width:250px; /* Fixed width for the left column */
+    flex-shrink: 0;
+      justify-content: center; /
+
+  }
+  .right-column {
+   
+    justify-content: center; /* Center content horizontally */
+  }
+  .left-column > *, .mid-column > *, .right-column > * {
+      margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+  }
+  
+  

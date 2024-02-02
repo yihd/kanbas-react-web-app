@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../Navigation/index.css" /> 
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../Navigation/index.css" /> 
+    
+    <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">
+
+
+  </head>
+
+  <style>
+    
+    .inner-navigation  {
+        background-color: white;
+        list-style: none;
+        padding: 0px;
+        width: 125px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-top: 0px;
+    
+    }
+    .inner-navigation  li {
+      padding-left: 10px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .inner-navigation  li.wd-active {
+      border-left: 2px solid black;
+    }
+    .inner-navigation li.wd-active a {
+      color: black;
+    }
+    .inner-navigation  a {
+      color: red;
+      text-decoration: none;
+    }
+    .close {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: transparent; /* Remove any background */
+        border: none; /* Remove border */
+        outline: none; /* Remove focus outline */
+         /* Change cursor to pointer */
+    }
+    
+    .close i {
+        font-size: 50px; /* Increase the size of the icon */
+         /* Change color if needed */
+    }
+    
+  </style>
+</head>
+<body>
+    <button class="close" aria-label="Close">
+        <i class="fas fa-times"></i>
+    </button>
+
+  
+    <div class="inner-navigation">
+      <div class="list-group">
+       
+        <li><a href="/Kanbas/Courses/Home/screen.html">
+            <i class="fa fa-book"></i> Courses</a> </li>
+            <li><a href="/Kanbas/Account/Profile/screen.html">
+                <i class = "fa fa-user-circle"></i> Account</a></li>
+              <li><a href="/Kanbas/Dashboard/screen.html">
+                <i class="fas fa-tachometer-alt"> Dashboard</i>
+
+              <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+              
+                
+                
+                    <li>
+                        <a href="#">
+                          <i class="fa fa-inbox icon-block"></i> Inbox</a>
+                      </li>
+            
+            
+              <li><a href="#"><i class="fa fa-history"></i> History</a></li>
+              <li><a href="#"><i class="fa fa-television"></i> Studio</a></li>
+              <li><a href="#"><i class="fa fa-list-alt"></i> Commons</a></li>
+              <li><a href="#"><i class="fa fa-question-circle"></i>
+                Help</a></li>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

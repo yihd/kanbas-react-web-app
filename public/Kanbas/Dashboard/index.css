@@ -1,0 +1,66 @@
+
+  h1 {
+    font-size: 2em; /* Adjust the size as necessary */
+    margin-bottom: 0.5em; /* Space below the title */
+  }
+  h2 {
+    font-size: 1.5em; /* Adjust the size as necessary */
+    color: #555; /* Color of the subtitle text */
+    margin-bottom: 0.5em; /* Space below the subtitle */
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .row .col {
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 250px; /* Flex grow, flex shrink, and flex basis */
+    max-width: 400px; /* Maximum width for each course */
+    margin-bottom: 35px; /* Spacing between rows of courses */
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 1200px) { /* Adjust the breakpoint as needed */
+    .row .col {
+      flex: 1 0 33.3333%;
+    }
+  }
+  
+  @media (max-width: 992px) { /* Adjust the breakpoint as needed */
+    .row .col {
+      flex: 1 0 50%;
+    }
+  }
+
+
+  .card {
+    background-color: #fff; /* Or any color you want for the card background */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 0.25rem; /* Rounded corners */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Full width of the card */
+    object-fit: cover; /* Maintain aspect ratio, you can adjust as needed */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Padding inside the card */
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem; /* Space below the title inside the card */
+  }
+  
+  .card-text {
+    margin-bottom: 1rem; /* Space below the text inside the card */
+  }
+  
+  .btn {
+    margin-top: 0.5rem; /* Space above the button inside the card */
+  }
+  
