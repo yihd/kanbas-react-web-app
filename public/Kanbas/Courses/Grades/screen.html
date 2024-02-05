@@ -1,213 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Table Layout</title>
-        <link rel="stylesheet" href="../../styles.css" />
-        <link rel="stylesheet" href="../../Navigation/index.css" /> 
-        <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="./index.css" />
+    <html lang="en">
+        <head>
+            <title>Table Layout</title>
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../../../Navigation/index.css" /> 
+            <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="./index.css" />
 
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../Navigation/index.css" /> 
+        
+        
+            <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                      rel="stylesheet"/>
+            <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="../Modules/index.css" />
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-      <link
-              href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-              rel="stylesheet"
-      />
-    </head>
-    <style>
+            
+            <link rel="stylesheet" href="../../Navigation/index.css" /> 
+    
+            <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="../Modules/index.css" />
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        
+            
+            <link rel="stylesheet" href="../../Navigation/index.css" /> 
+           
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
 
-        table {
-            display: flex;
-          width: 100%; /* Set the table to span the full width of the container */
-        }
-        td {
-          vertical-align: top; /* Align content to the top of the cell */
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+          <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"/>
+          <link rel="stylesheet" href="../../styles.css" />
+          <link rel="stylesheet" href="../../../Navigation/index.css" />
+          <link rel="stylesheet" href="./index.css" />
+          <link rel="stylesheet" href="../Modules/index.css" />
           
-        }
-        .left-column {
-            width: 250px; /* Fixed width for the left column */
-          flex-shrink: 0;
-          justify-content: center; /* Center content horizontally */
-    
-        }
-        .mid-column{
-            width: 250px; /* Fixed width for the left column */
-          flex-shrink: 0;
-            justify-content: center; /
-    
-        }
-        .right-column {
-         
-          justify-content: center; /* Center content horizontally */
-        }
-        .left-column > *, .mid-column > *, .right-column > * {
-            margin-top: 0; /* This removes the top margin for all direct children of the column classes */
-          }
-      </style>
-<body>
-    <table>
-      <tbody>
-        <tr>
-          <td class="left-column">
-            
 
-  
-    <ul class="wd-kanbas-navigation">
-      <li><a href="http://northeastern.edu">N</a></li>
-      <li><a href="/Kanbas/Account/Profile/screen.html">
-        <i class = "fa fa-user-circle"></i> Account</a></li>
-      <li class="wd-active">
-        <a href="/Kanbas/Dashboard/screen.html">
-          <i class="fa fa-tachometer"></i> Dashboard</a>
-      </li>
-      <li><a href="/Kanbas/Courses/Home/screen.html">
-        <i class="fa fa-book"></i>Courses</a> </li>
-      <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
-      
-        
-        <li>
-          <a href="#">
-            <i class="fa fa-inbox icon-block"></i>
-            <span class="icon-block"></span>
-            Inbox
-          </a>
-        </li>
-      <li><a href="#"><i class="fa fa-history"></i>History</a></li>
-      <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
-      <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
-      <li><a href="#"><i class="fa fa-question-circle"></i>
-        <span class="icon-block">Help</span></a></li>
-    </ul>
-          </td>
-          <td class="mid-column">
-            <ul>
-                <li>
-                  <a href="/Kanbas/Courses/Home/screen.html">
-                    Home</a></li>
-                <li><a href="">
-                    Modules</a></li>
-                <li><a href="">
-                    Piazza</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">
-                    Grades</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">
-                    Assignments</a></li>
-                <li><a href="">
-                    ZoomMeetings</a></li>
-                <li><a href="">
-                    People</a></li>
-                <li><a href="">
-                    Panapto Video</a></li>
-                <li><a href="">
-                    Discussions</a></li>
-                <li><a href="">
-                    Announcements</a></li>
-                <li><a href="">
-                    Pages</a></li>
-                <li><a href="">
-                    Files</a></li>
-                <li><a href="">
-                    Rubrics</a></li>
-                <li><a href="">
-                    Outcomes</a></li>
-                <li><a href="">
-                    Collaborations</a></li>
-                <li><a href="">
-                    Syllabus</a></li>
-                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
-                    Settings</a></li>    
-                      
-              </ul>
-          </td>
-          <td class="right-column">
-            <select name="gradebook" id="gradebook-dropdown">
-                <option value="SCIFI" selected>Gradebook</option>
-                <option value="1st">1st</option>
-                <option value="2nd">2nd</option>
-            </select>
-            <button style="margin-right: 5px; background-color: #f0f0f0;">Import</button>
-            <select name="export" id="ExportItems">
-                <option value="SCIFI" selected>Export</option>
-                <option value="pdf">pdf</option>
-                <option value="word">word</option>
-            </select>
-            <button style="margin-right: 5px;background-color: #f0f0f0;">Configure</button>
-            </div>
-            <h2>Student Names</h2>
-        
-            <input type="StudentNames"
-                placeholder="Search Students"
-                id="studentsName"/><br/>
-                <h2 style="margin-top: 20px;">Assignment Names</h2>
-                <input type="assignmentName"
-                    placeholder="Search Assignments"
-                    id="assignmentName"/><br/>
+
+
             
-            <button style="background-color: #f0f0f0; margin-top: 20px;">Apply Filters</button>
-            <style>
-            .gradebook-table {
-                width: 100%;
+              
+        </head>
+    
+        <body>
+
+            <div class="d-flex">
+            
+                <div class=".d-block ">
+                    
+                    <ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu">N</a></li>
+                        <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user-circle"></i> Account</a></li>
+                        <li><a href="/Kanbas/Dashboard/screen.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                        <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                        <li><a href="#"><i class="fa fa-inbox icon-block"></i><span class="icon-block"></span>Inbox</a></li>
+                        <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+                        <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
+                        <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle"></i><span class="icon-block">Help</span></a></li>
+                    </ul>
+                </div>
                 
-            }
-            .gradebook-table th, .gradebook-table td {
-                border: 1px solid black;
-                padding: 8px;
-                text-align: center;
-            }
-            .gradebook-table input[type="text"] {
-                width: 50px;
-                text-align: center;
-            }
-            </style>
-        
-        
-            <h2 style="margin-top: 20px;">Gradebook Table</h2>
-            <table class = "gradebook-table">
-                <tr>
-                  <th>Student Name</th>
-                  <th>A1 SET UP</th>
-                  <th>A2 HTML</th>
-                  <th>A3 CSS</th>
-                  <th>A4 JAVASCRIPT</th>
-                </tr>
-                <tr>
-                  <td>Justin Bieber</td>
-                  <td><input type="text" value="95"></td>
-                  <td>88</td>
-                  <td>92</td>
-                  <td>91</td>
-                </tr>
-                <tr>
-                  <td>Taylor Swift</td>
-                  <td>93</td>
-                  <td><input type="text" value="99"></td>
-                  <td>89</td>
-                  <td>90</td>
-                </tr>
-                <tr>
-                  <td>Kanye West</td>
-                  <td>79</td>
-                  <td>81</td>
-                  <td><input type="text" value="59"></td>
-                  <td>72</td>
-                </tr>
-                <tr>
-                  <td>Ariana Grande</td>
-                  <td>92</td>
-                  <td>87</td>
-                  <td>91</td>
-                  <td><input type="text" value="95"></td>
-                </tr>
-              </table>
-        
-        
-        
-          </td>
-
-          
-          
-        
-    </tr>
-</tbody>
-</table>
-</html>
+                <div class="d-block my-division">
+                    <ul class="wd-navigation">
+                        <li>
+                          <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                        <li class="wd-active">
+                          <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                        </li>
+                        <li><a href="http://piazza.com">Piazza</a></li>
+                        <li><a href="#">Zoom</a></li>
+                        <li>
+                          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                        </li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                      </ul>
+                    
+                </div>
+                <div class="container mt-3">
+                    <nav aria-label="breadcrumb" style="margin-left: -15px;">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">CS5610.11744.202401</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                        </ol>
+                    </nav>
+                
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                  
+                        <!-- Left-aligned elements -->
+                        <div class="d-flex align-items-center" >
+                          <div class="me-3">
+                            <label for="DisplayGrade" class="me-2" style="font-weight: bold; font-size: 1.25rem;">Student Names</label>
+                            <select class="form-select" id="DisplayGrade" style="width: 300px;">
+                                <option value="" disabled selected>Search Students</option>
+                              <option>A</option>
+                              <option>B</option>
+                            </select>
+                          </div>
+                          
+                          <div>
+                            <label for="SubmissionType" class="me-2" style="font-weight: bold; font-size: 1.25rem;">Assignment Names</label>
+                            <select class="form-select" id="SubmissionType" style="width: 300px;">
+                                <option value="" disabled selected>Search Assignments</option>
+                              <option>C</option>
+                              <option>D</option>
+                            </select>
+                          </div>
+                          
+                        </div>
+                      
+                        <!-- Right-aligned elements -->
+                        <div class="d-flex align-items-center">
+                          <a href="/Kanbas/Courses/Assignments/screen.htmlL" class="btn btn-outline-secondary me-2">
+                            <i class="fas fa-file-import"></i> Import
+                          </a>
+                          
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-file-export"></i> Export
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                              <li><a class="dropdown-item" href="#">Action 1</a></li>
+                              <li><a class="dropdown-item" href="#">Action 2</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      
+                      </div>
+                      
+                      
+                      
+                      <button  style="background-color: lightgrey; color:black" class="btn btn-primary">
+                        <i class="fa fa-filter" aria-hidden="true"></i> Apply Filters</button>
+                      
+                      
+                      
+                    
+                    
+                      
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                <tr>
+                                  <th>Student Names</th>
+                                  <th>A1 SETUP</th>
+                                  <th>A2 HTML</th>
+                                  <th>A3 CSS</th>
+                                  <th>A4 BOOTSTRAP</th>
+                                </tr>
+                             
+                              
+                                
+                                  <td>Justin Bieber</td>
+                                  <td>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control small-input" value="59">
+                                      <span class="input-group-text">
+                                        <i class="fa fa-pencil-alt"></i>
+                                      </span>
+                                    </div>
+                                  </td>
+                                  <td>88</td>
+                                  <td>92</td>
+                                  <td>91</td>
+                                </tr>
+                                <tr>
+                                  <td>Taylor Swift</td>
+                                  <td>93</td>
+                                  <td>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control small-input" value="99">
+                                      <span class="input-group-text">
+                                        <i class="fa fa-pencil-alt"></i>
+                                      </span>
+                                    </div>
+                                  </td>
+                                  <td>89</td>
+                                  <td>90</td>
+                                </tr>
+                                <tr>
+                                  <td>Kanye West</td>
+                                  <td>79</td>
+                                  <td>81</td>
+                                  <td>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control small-input" value="59">
+                                      <span class="input-group-text">
+                                        <i class="fa fa-pencil-alt"></i>
+                                      </span>
+                                    </div>
+                                  </td>
+                                  <td>72</td>
+                                </tr>
+                                <tr>
+                                  <td>Ariana Grande</td>
+                                  <td>92</td>
+                                  <td>87</td>
+                                  <td>91</td>
+                                  <td>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control small-input" value="95">
+                                      <span class="input-group-text">
+                                        <i class="fa fa-pencil-alt"></i>
+                                      </span>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          
+                  </div>
+                  </html>

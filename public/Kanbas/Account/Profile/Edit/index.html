@@ -1,4 +1,76 @@
-<h2>Huidi Wang</h2>
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Table Layout</title>
+            <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+
+            <link rel="stylesheet" href="../../../Navigation/index.css" /> 
+            <link rel="stylesheet" href="../styles.css" />
+            
+            <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="./index.css" />
+
+            
+            <link rel="stylesheet" href="../Navigation/index.css" />     
+            <link rel="stylesheet" href="./index.css" />
+
+            
+            
+        
+        
+            <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                      rel="stylesheet"/>
+            <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="../Modules/index.css" />
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+            
+            
+
+
+            <link rel="stylesheet" href="../../../../Kanbas/Courses/Navigation/index.css">
+
+            
+              
+        </head>
+    
+        <body>
+
+            <div class="d-flex">
+            
+                <div class=".d-block ">
+                    
+                    <ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu">N</a></li>
+                        <li class="wd-active"><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user-circle"></i> Account</a></li>
+                        <li><a href="/Kanbas/Dashboard/screen.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                        <li><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                        <li><a href="#"><i class="fa fa-inbox icon-block"></i><span class="icon-block"></span>Inbox</a></li>
+                        <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+                        <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
+                        <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle"></i><span class="icon-block">Help</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="d-block my-division">
+                    <ul class="wd-navigation">
+                        <li><a href="#">Notifications</a></li>
+                        <li class = "wd-active" ><a href="/Kanbas/Account/profile/screen.html">Profile</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Settings</a></li>
+                        <li><a href="#">ePortfolios</a></li>
+                        <li><a href="#">Shared Content</a></li>
+                        <li><a href="#">The hub</a></li>
+                        <li><a href="#">Quickly Course Tools</a></li>
+                        <li><a href="#">Global Announcements</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="d-block my-division2">
+                    <h2>Huidi Wang</h2>
 <div>
     <label for="Name" style="display: inline-block; margin-right: 5px;">Name</label>
     <input type="text" id="Name" style="display: inline-block; width: 120px; font-size: 14px; margin-right: 20px;"/>
@@ -46,6 +118,8 @@
         align-items: flex-start;
         width: 10%;
         padding: 10px;
+        margin-left: 0; /* Removes the left margin */
+        padding-left: 0; /* Removes the left padding */
     }
 
     .input-container {
@@ -75,25 +149,27 @@
         margin-right: 10px; /* Adjust the margin as needed */
         margin-left: 10px; /* Adjust the margin as needed */
     }
+    
+    
 
 </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="input-container">
-        <label for="title">TITLE</label>
-        <input type="text" id="title" value="YouTube" />
+    <div class="container">
+        <div class="input-container">
+            <label for="title">TITLE</label>
+            <input type="text" id="title" value="YouTube" />
+        </div>
+    
+        <div class="arrow">→</div>
+    
+        <div class="input-container">
+            <label for="url">URL</label>
+            <input type="text" id="url" value="https://www.youtube.com" />
+        </div>
     </div>
-
-    <div class="arrow">→</div>
-
-    <div class="input-container">
-        <label for="url">URL</label>
-        <input type="text" id="url" value="https://www.youtube.com" />
-    </div>
-
-</div>
+    
 
 <div>
     <!-- Correctly wrap the button with the anchor tag -->
@@ -123,3 +199,12 @@
         <button style="background-color: #f0f0f0; font-weight: bold;">Save Editing</button>
     </a>
 </div>
+                    
+                </div>
+                
+            </div>
+           
+
+
+        </body>
+    </html>

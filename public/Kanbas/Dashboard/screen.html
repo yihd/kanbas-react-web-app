@@ -1,9 +1,189 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="/Kanbas/styles.css" />
-    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
-  </head>
-  <body>
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Table Layout</title>
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../../Navigation/index.css" /> 
+            <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="./index.css" />
+
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../Navigation/index.css" /> 
+        
+        
+            <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                      rel="stylesheet"/>
+            <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="../Modules/index.css" />
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+            
+              
+        </head>
+    
+        <body>
+
+            <div class="d-flex">
+            
+                <div class="d-none d-md-block kanbas-nav ">
+                    
+                    <ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu">N</a></li>
+                          <li><a href="/Kanbas/Account/Profile/screen.html">
+                            <i class = "fa fa-user-circle"></i> Account</a></li>
+                          <li class="wd-active">
+                            <a href="/Kanbas/Dashboard/screen.html">
+                              <i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                            
+                          </li>
+                          <li><a href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book"></i>Courses</a> </li>
+                          <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                          
+                            
+                            <li>
+                              <a href="#">
+                                <i class="fa fa-inbox icon-block"></i>
+                                <span class="icon-block"></span>
+                                Inbox
+                              </a>
+                            </li>
+                          <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+                          <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
+                          <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
+                          <li><a href="#"><i class="fa fa-question-circle"></i>
+                            
+                        <span class="icon-block">Help</span></a></li>
+                           
+                        </ul>
+                </div>
+                
+                <div class="container mt-4">
+                    <div class="p-4">
+                        <h1>Dashboard</h1> 
+                        <hr style="height: 2px; background-color: black; border: none;"/>
+                        <h2>Published Courses (8)</h2>
+                        <hr style="height: 2px; background-color: black; border: none;"/>
+                        <div class="row">
+                          <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2  row-cols-sm-1">
+                            
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/biology.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Biology 12</a>
+                                  <p class="card-text">Genes</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/chemistry.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Chemistry 101</a>
+                                  <p class="card-text">Organic Chemistry</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/art.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Art 15</a>
+                                  <p class="card-text">Contemporary Art </p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/history.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     History 1000</a>
+                                  <p class="card-text">Europe in the World</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/math.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Math 110</a>
+                                  <p class="card-text">Optimization</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/music.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Music 3</a>
+                                  <p class="card-text">Music Technology</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col" style="width: 300px">
+                              <div class="card">
+                                <img src="../../images/physics.jpg" class="card-img-top"
+                                     style="max-height: 150px"/>
+                                <div class="card-body">
+                                  <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                     style="text-decoration: none; color: navy; font-weight: bold">
+                                     Physics 13</a>
+                                  <p class="card-text">Introduction of Physics</p>
+                                  <a html="#" class="btn btn-primary"> Go </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col" style="width: 300px">
+                                <div class="card">
+                                  <img src="../../images/sports.jpg" class="card-img-top"
+                                       style="max-height: 150px"/>
+                                  <div class="card-body">
+                                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                                       style="text-decoration: none; color: navy; font-weight: bold">
+                                       Sports 11</a>
+                                    <p class="card-text">Exercise and Diets</p>
+                                    <a html="#" class="btn btn-primary"> Go </a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+
+        </body>
+    </html>
     

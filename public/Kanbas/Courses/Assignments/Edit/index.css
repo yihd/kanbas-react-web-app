@@ -1,0 +1,14 @@
+.breadcrumb a {
+    color: red !important; /* This will change the text color to red */
+}
+
+.breadcrumb {
+    background-color: transparent !important; /* This will make the background transparent */
+}
+.btn-primary {
+    border: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " > " !important; /* Changes separator to > */
+}
+

@@ -1,0 +1,42 @@
+.assignment-text {
+    /* Add your custom styles here */
+    font-size: 19px; /* Example: setting font size */
+     /* Example: making text bold */
+    color: #333; /* Example: setting text color */
+    /* More styles as needed */
+}
+/* Increasing specificity */
+.wd-modules .list-group-item {
+    border-left: 6px solid green; /* Adjust the thickness (15px) as needed */
+}
+
+
+/* Custom CSS to override Bootstrap's bg-primary class */
+.badge.bg-primary {
+    background-color: grey !important; /* This will make sure that your grey background is applied */
+    color: black !important; /* This changes the text color to black */
+}
+
+
+.breadcrumb a {
+    color: red !important; /* This will change the text color to red */
+}
+
+.breadcrumb {
+    background-color: transparent !important; /* This will make the background transparent */
+}
+.btn-primary {
+    border: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " > " !important; /* Changes separator to > */
+}
+
+.custom-dropdown-toggle {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+
+

@@ -25,8 +25,15 @@
     font-size: 2em;
     margin-bottom: 5px;
   }
+  .wd-kanbas-navigation li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-  .icon-block {
-    display: block; /* Make the icon appear on its own line */
-  }
+  .wd-kanbas-navigation a .fa-user-circle {
+    color: grey;
+}
+  
   

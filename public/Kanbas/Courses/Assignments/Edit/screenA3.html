@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Table Layout</title>
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../../../Navigation/index.css" /> 
+            <link rel="stylesheet" href="/public/libs/font-awesome/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="./index.css" />
+
+            <link rel="stylesheet" href="../../styles.css" />
+            <link rel="stylesheet" href="../Navigation/index.css" /> 
+        
+        
+            <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                      rel="stylesheet"/>
+            <link rel="stylesheet" href="/public/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="../Modules/index.css" />
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+            
+            <link rel="stylesheet" href="../../Navigation/index.css" /> 
+            
+    
+    
+
+
+            
+              
+        </head>
+    
+        <body>
+
+            <div class="d-flex">
+            
+                <div class=".d-block ">
+                    
+                    <ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu">N</a></li>
+                        <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user-circle"></i> Account</a></li>
+                        <li><a href="/Kanbas/Dashboard/screen.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                        <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                        <li><a href="#"><i class="fa fa-inbox icon-block"></i><span class="icon-block"></span>Inbox</a></li>
+                        <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+                        <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
+                        <li><a href="#"><i class="fa fa-list-alt"></i>Commons</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle"></i><span class="icon-block">Help</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="d-block my-division">
+                    <ul class="wd-navigation">
+                        <li>
+                          <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                        <li>
+                          <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                        </li>
+                        <li><a href="http://piazza.com">Piazza</a></li>
+                        <li><a href="#">Zoom</a></li>
+                        <li class="wd-active">
+                          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                        </li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                      </ul>
+                    
+                </div>
+                
+                    <div class="container mt-4">
+                        <nav aria-label="breadcrumb" style="margin-left: -15px;">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#">CS5610.11744.202401</a></li>
+                              <li class="breadcrumb-item"><a href="Kanbas/Courses/Assignments/screen.html">Assignment</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">A3 - CSS</li>
+                            </ol>
+                        </nav>
+                        <hr style="height: 2px; background-color: black; border: none;">
+
+
+                        <form>
+                            
+
+                          <p>Assignment Name</p>
+                          <input type="text" class="form-control mb-3" value="A3 - CSS">
+                    
+                          <textarea class="form-control mb-3" rows="5">This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. </textarea>
+                     
+
+                          <div class="container mt-4" style="margin-left:-160px;">
+                            <form>
+                                <div class="mb-3 d-flex align-items-center">
+                                    <div style="flex: 1; text-align: right;">
+                                      <label for="Points" style="margin-right: 10px;">Points</label>
+                                    </div>
+                                    <input type="num" class="form-control" id="AssignTo" value="100" style="flex: 2;">
+                                  </div>
+                          
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="AssignmentGroup" style="margin-right: 10px; white-space: nowrap;">Assignment Group</label>
+                                </div>
+                                <select class="form-select" id="AssignmentGroup" style="flex: 2;">
+                                  <option selected>ASSIGNMENTS</option>
+                                  <option>QUIZZES</option>
+                                </select>
+                              </div>
+                          
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="DisplayGrade" style="margin-right: 10px; white-space: nowrap;">Display Grade as</label>
+                                </div>
+                                <select class="form-select" id="DisplayGrade" style="flex: 2;">
+                                  <option selected>Percentage</option>
+                                  <option >Numeric</option>
+                                </select>
+                              </div>
+
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="SubmissionType" style="margin-right: 10px; white-space: nowrap;">Submission Type</label>
+                                </div>
+                                <select class="form-select" id="SubmissionType" style="flex: 2;">
+                                  <option selected>PDF</option>
+                                  <option >words</option>
+                                </select>
+                              </div>
+                          
+                              <div class="form-check mb-3" style="margin-left: 350px;"> <!-- You can change 20px to any other value -->
+                                <input class="form-check-input" type="checkbox" id="finalGradeCheck">
+                                <label class="form-check-label" for="finalGradeCheck">
+                                    Do not count this assignment towards the final grade
+                                </label>
+                            </div>
+                            
+                            
+                          
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="AssignTo" style="margin-right: 10px;">Assign to</label>
+                                </div>
+                                <input type="text" class="form-control" id="AssignTo" value="Everyone" style="flex: 2;">
+                              </div>
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="DueDate" style="margin-right: 10px;">Due</label>
+                                </div>
+                                <input type="date" class="form-control" id="DueDate" style="flex: 2;">
+                              </div>
+                            
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="AvailableDate" style="margin-right: 10px;">Available</label>
+                                </div>
+                                <input type="date" class="form-control" id="AvailableDate" style="flex: 2;">
+                              </div>
+                            
+                              <div class="mb-3 d-flex align-items-center">
+                                <div style="flex: 1; text-align: right;">
+                                  <label for="UntilDate" style="margin-right: 10px;">Until</label>
+                                </div>
+                                <input type="date" class="form-control" id="UntilDate" style="flex: 2;">
+                              </div>
+
+                              <div class="d-flex justify-content-end align-items-center mb-3">
+                                <div class="form-check mr-2">
+                                    <input class="form-check-input" type="checkbox" id="notifyChange">
+                                    <label class="form-check-label" for="notifyChange">
+                                        Notify users that this content has changed
+                                    </label>
+                                </div>
+                                <a href="/Kanbas/Courses/Assignments/screen.html">
+                                <button type="button" class="btn btn-outline-secondary mr-2">Cancel</button>
+                                </a>
+                                <a href="/Kanbas/Courses/Assignments/screen.html">
+                                <button type="button" class="btn" style="background-color: red; color: white;">Save</button>
+                            </a>
+                            </div>
+                          
+                              
+                            </form>
+                          </div>
+                      
+                    </body>
+                    </html>

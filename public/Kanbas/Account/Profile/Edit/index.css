@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 10%;
+    padding: 10px;
+    margin-left: 0; /* Removes the left margin */
+    padding-left: 0; /* Removes the left padding */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px; /* Adjust the margin as needed */
+    flex-grow: 1;
+    
+    
+}
+
+.input-container label {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input-container input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.arrow {
+    padding-top: 30px; /* Aligns the arrow with the input boxes */
+    font-size: 24px; /* Adjust size as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+.my-division2 {
+    margin-left: 40px; /* Adjust this value as needed */
+}

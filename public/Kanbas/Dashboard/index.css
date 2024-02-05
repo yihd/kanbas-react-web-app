@@ -1,19 +1,5 @@
 
-  h1 {
-    font-size: 2em; /* Adjust the size as necessary */
-    margin-bottom: 0.5em; /* Space below the title */
-  }
-  h2 {
-    font-size: 1.5em; /* Adjust the size as necessary */
-    color: #555; /* Color of the subtitle text */
-    margin-bottom: 0.5em; /* Space below the subtitle */
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
+  
   
   .row .col {
     padding-right: 15px;
@@ -63,4 +49,8 @@
   .btn {
     margin-top: 0.5rem; /* Space above the button inside the card */
   }
-  
+
+  .container.mt-4 {
+    /* Adjust the top margin to reduce the space */
+    margin-left: 2rem; /* This value is an example, you can set it to what you find appropriate */
+  }

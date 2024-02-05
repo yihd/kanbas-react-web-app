@@ -26,4 +26,13 @@ table {
       margin-top: 0; /* This removes the top margin for all direct children of the column classes */
   }
   
+
+  .my-division {
+    margin: 10px; /* Adjust this value as needed */
+    /* Or use padding if you want space inside the division */
+    padding: 10px; /* Adjust this value as needed */
+  }
   
+  .fa-user-circle {
+    color: white;
+  }
