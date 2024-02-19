@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "Calculus", "course": "RS101" },
+    { "_id": "A102", "title": "Linear Algebra", "course": "RS101" },
+    { "_id": "A103", "title": "Geometry", "course": "RS101" },
+    { "_id": "A201", "title": "Genetics", "course": "RS102" },
+    { "_id": "A202", "title": "Anatomy", "course": "RS102" },
+    { "_id": "A203", "title": "Zoology", "course": "RS102" },
+    { "_id": "A301", "title": "Western History", "course": "RS103" },
+    { "_id": "A302", "title": "Eastern History", "course": "RS103" },
+    { "_id": "A303", "title": "World War 2", "course": "RS103" }
+  ]

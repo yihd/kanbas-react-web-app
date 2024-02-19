@@ -1,0 +1,18 @@
+.btn-group {
+    background-color: grey;
+  }
+  
+  .btn-assignment {
+    background-color: red;
+  }
+  
+  .btn-options {
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  /* Additional styles for icons if needed */
+  .fa-ellipsis-v {
+    color: black; /* Example to style icon color, adjust as necessary */
+  }
+  

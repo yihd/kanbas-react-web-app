@@ -1,0 +1,240 @@
+[
+    {
+      "_id": "2A",
+      "name": "Calculus",
+      "description": "Intro Math Courses.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "Function",
+          "description": "Tells students what is Function.",
+          "module": "M101"
+        },
+        {
+          "_id": "L102",
+          "name": "Derivative",
+          "description": "Basic principles of derivative.",
+          "module": "M101"
+        },
+        {
+          "_id": "L103",
+          "name": "Integral",
+          "description": "Integral Calculation.",
+          "module": "M101"
+        }
+      ]
+    },
+    {
+      "_id": "M102",
+      "name": "Linear Algebra",
+      "description": "Linear Algebra.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "System of Equations",
+          "description": "System of Equations.",
+          "module": "M102"
+        },
+        {
+          "_id": "L202",
+          "name": "Matrix",
+          "description": "Matrix.",
+          "module": "M102"
+        },
+        {
+          "_id": "L203",
+          "name": "Linear Transformation",
+          "description": "Linear Transformation.",
+          "module": "M102"
+        }
+      ]
+    },
+    {
+      "_id": "M103",
+      "name": "Geometry",
+      "description": "Geometry.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "3d plot",
+          "description": "3d plot.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Plot by Matlab",
+          "description": "Plot by Matlab.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "Comparison",
+          "description": "Comparison.",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M201",
+      "name": "Fundamentals of Cells",
+      "description": "Fundamentals of Biology.",
+      "course": "RS102",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Nerve Cell",
+          "description": "Nerve Cell.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Connection Tissue Cell",
+          "description": "Connection Tissue Cell.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "Muscle Cell",
+          "description": "Muscle Cell.",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M202",
+      "name": "Anatomy",
+      "description": "Anatomy.",
+      "course": "RS102",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "embryology",
+          "description": "embryology.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "gross anatomy",
+          "description": " gross anatomy.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": " human anatomy",
+          "description": " human anatomy.",
+          "module": "M103"
+        }
+      ]
+    
+    },
+    {
+      "_id": "M203",
+      "name": "Zoology",
+      "description": "Study of aerodynamic heating and thermal protection systems.",
+      "course": "RS102",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "mammals",
+          "description": "mammals.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "fish",
+          "description": "fish.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "reptiles",
+          "description": "reptiles.",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M301",
+      "name": "Western History",
+      "description": "Western History.",
+      "course": "RS103",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "ancient history",
+          "description": "ancient history.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Middle Ages",
+          "description": "Middle Ages.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "modern history",
+          "description": "modern history.",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M302",
+      "name": "Eastern History",
+      "description": "Understanding orbital dynamics and mission planning.",
+      "course": "RS103",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "East Asia",
+          "description": "East Asia.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "West Asia",
+          "description": "West Asia.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "North Asia",
+          "description": "North Asia.",
+          "module": "M103"
+        }
+      ]
+
+    },
+    {
+      "_id": "M303",
+      "name": "World War 2",
+      "description": "Overview of spacecraft systems and subsystems engineering.",
+      "course": "RS103",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Reason",
+          "description": "Reason.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Process",
+          "description": "Process.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "Result",
+          "description": "Result.",
+          "module": "M103"
+        }
+      ]
+
+    }
+    
+  ]

@@ -1,0 +1,122 @@
+[ { "_id": "1", "user": "121", "course": "RS101" },
+  { "_id": "2", "user": "122", "course": "RS101" },
+  { "_id": "3", "user": "123", "course": "RS101" },
+  { "_id": "10", "user": "124", "course": "RS101" },
+  { "_id": "11", "user": "125", "course": "RS101" },
+  { "_id": "12", "user": "126", "course": "RS101" },
+  { "_id": "13", "user": "127", "course": "RS101" },
+  { "_id": "14", "user": "128", "course": "RS101" },
+  { "_id": "15", "user": "129", "course": "RS101" },
+  { "_id": "16", "user": "130", "course": "RS101" },
+
+
+
+
+
+
+  { "_id": "1", "user": "121", "course": "RS102" },
+  { "_id": "2", "user": "122", "course": "RS102" },
+  { "_id": "3", "user": "123", "course": "RS102" },
+  { "_id": "10", "user": "124", "course": "RS102" },
+  { "_id": "11", "user": "125", "course": "RS102" },
+  { "_id": "12", "user": "126", "course": "RS102" },
+  { "_id": "13", "user": "127", "course": "RS102" },
+  { "_id": "14", "user": "128", "course": "RS102" },
+  { "_id": "15", "user": "129", "course": "RS102" },
+  { "_id": "16", "user": "130", "course": "RS102" },
+
+
+  { "_id": "1", "user": "121", "course": "RS103" },
+  { "_id": "2", "user": "122", "course": "RS103" },
+  { "_id": "3", "user": "123", "course": "RS103" },
+  { "_id": "4", "user": "124", "course": "RS103" },
+  { "_id": "5", "user": "125", "course": "RS103" },
+  { "_id": "7", "user": "126", "course": "RS103" },
+  { "_id": "8", "user": "128", "course": "RS103" },
+  { "_id": "9", "user": "127", "course": "RS103" },
+  { "_id": "10", "user": "129", "course": "RS103" },
+  { "_id": "11", "user": "130", "course": "RS103" },
+
+
+
+
+
+   { "_id": "1", "user": "121", "course": "RS201" },
+  { "_id": "2", "user": "122", "course": "RS201" },
+  { "_id": "3", "user": "123", "course": "RS201" },
+  { "_id": "10", "user": "124", "course": "RS201" },
+  { "_id": "11", "user": "125", "course": "RS201" },
+  { "_id": "12", "user": "126", "course": "RS201" },
+  { "_id": "13", "user": "127", "course": "RS201" },
+  { "_id": "14", "user": "128", "course": "RS201" },
+  { "_id": "15", "user": "129", "course": "RS201" },
+  { "_id": "16", "user": "130", "course": "RS201" },
+
+
+
+
+
+
+  { "_id": "1", "user": "121", "course": "RS202" },
+  { "_id": "2", "user": "122", "course": "RS202" },
+  { "_id": "3", "user": "123", "course": "RS202" },
+  { "_id": "10", "user": "124", "course": "RS202" },
+  { "_id": "11", "user": "125", "course": "RS202" },
+  { "_id": "12", "user": "126", "course": "RS202" },
+  { "_id": "13", "user": "127", "course": "RS202" },
+  { "_id": "14", "user": "128", "course": "RS202" },
+  { "_id": "15", "user": "129", "course": "RS202" },
+  { "_id": "16", "user": "130", "course": "RS202" },
+
+
+  { "_id": "1", "user": "121", "course": "RS203" },
+  { "_id": "2", "user": "122", "course": "RS203" },
+  { "_id": "3", "user": "123", "course": "RS203" },
+  { "_id": "4", "user": "124", "course": "RS203" },
+  { "_id": "5", "user": "125", "course": "RS203" },
+  { "_id": "7", "user": "126", "course": "RS103" },
+  { "_id": "8", "user": "128", "course": "RS203" },
+  { "_id": "9", "user": "127", "course": "RS203" },
+  { "_id": "10", "user": "129", "course": "RS203" },
+  { "_id": "11", "user": "130", "course": "RS203" },
+
+
+  { "_id": "1", "user": "121", "course": "RS301" },
+  { "_id": "2", "user": "122", "course": "RS301" },
+  { "_id": "3", "user": "123", "course": "RS301" },
+  { "_id": "10", "user": "124", "course": "RS301" },
+  { "_id": "11", "user": "125", "course": "RS301" },
+  { "_id": "12", "user": "126", "course": "RS301" },
+  { "_id": "13", "user": "127", "course": "RS301" },
+  { "_id": "14", "user": "128", "course": "RS301" },
+  { "_id": "15", "user": "129", "course": "RS301" },
+  { "_id": "16", "user": "130", "course": "RS301" },
+
+
+
+
+
+
+  { "_id": "1", "user": "121", "course": "RS302" },
+  { "_id": "2", "user": "122", "course": "RS302" },
+  { "_id": "3", "user": "123", "course": "RS302" },
+  { "_id": "10", "user": "124", "course": "RS302" },
+  { "_id": "11", "user": "125", "course": "RS302" },
+  { "_id": "12", "user": "126", "course": "RS302" },
+  { "_id": "13", "user": "127", "course": "RS302" },
+  { "_id": "14", "user": "128", "course": "RS302" },
+  { "_id": "15", "user": "129", "course": "RS302" },
+  { "_id": "16", "user": "130", "course": "RS302" },
+
+
+  { "_id": "1", "user": "121", "course": "RS303" },
+  { "_id": "2", "user": "122", "course": "RS303" },
+  { "_id": "3", "user": "123", "course": "RS303" },
+  { "_id": "4", "user": "124", "course": "RS303" },
+  { "_id": "5", "user": "125", "course": "RS303" },
+  { "_id": "7", "user": "126", "course": "RS303" },
+  { "_id": "8", "user": "128", "course": "RS303" },
+  { "_id": "9", "user": "127", "course": "RS303" },
+  { "_id": "10", "user": "129", "course": "RS303" },
+  { "_id": "11", "user": "130", "course": "RS303" }
+]

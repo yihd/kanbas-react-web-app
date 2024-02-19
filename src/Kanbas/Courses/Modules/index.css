@@ -1,0 +1,161 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+
+table {
+    display: flex;
+  width: 100%; /* Set the table to span the full width of the container */
+}
+td {
+  vertical-align: top; /* Align content to the top of the cell */
+  
+}
+.left-column {
+    width: 30px; /* Fixed width for the left column */
+    margin-right: 10px; 
+  justify-content: center; /* Center content horizontally */
+
+}
+.mid-column{
+    width: 20px; /* Fixed width for the left column */
+  flex-shrink: 0;
+  margin-left: -10px;
+  margin-top: 10px;
+    justify-content: center; 
+
+}
+.right-column {
+  justify-content: center; /* Center content horizontally */
+  width: 1000px;
+}
+.left-column > * {
+    margin-top: 0; /* This removes the top margin for all direct children of the column classes */
+  }
+
+.mid-column > *, .right-column > *{
+    margin-top: 10px;
+}
+
+.new-column {
+    width: 250px; /* Set the desired width for the new column */
+    /* Other styling properties as needed */
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    background-color: #f0f0f0; /* Light grey background */
+    margin-bottom: 8px; /* Space between items */
+    padding: 10px; /* Padding inside each item */
+    border-radius: 4px; /* Rounded corners for aesthetics */
+    display: flex; /* To align icon and text */
+    align-items: center; /* Vertical alignment */
+    border: 1px solid #d3d3d3; /* Border color */
+}
+
+.sidebar-menu li i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #555; /* Icon color */
+}
+
+.sidebar-section h2 + hr {
+    border-top: 2px solid #000; /* Black line, 2px thick */
+    margin-top: 5px; /* 5px margin above the line */
+    margin-bottom: 10px; /* 10px margin below the line */
+}
+
+.four-buttons{
+    background-color:  #D3D3D3;
+    color: black
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0; /* Align dropdown to the right */
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+.btn {
+    margin-right: 8px;
+}
+
+.custom-dropdown-toggle {
+    cursor: pointer;
+}
+
+.hamburger-btn {
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes the border */
+    outline: none; /* Removes the outline */
+    padding: 5px; /* Adds some space around the icon */
+    border-radius: 5px; /* Optional: Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+/* Styles for the icon */
+.hamburger-btn i {
+    
+    font-size: 28px; /* Sets the size of the bars */
+    
+}
+.btn btn-transparent arrow-btn{
+    font-size: 25px;
+}
