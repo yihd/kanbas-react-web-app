@@ -1,0 +1,27 @@
+.input {
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    font-size: 16px; /* Consistent font size */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    font-family: inherit; /* Consistent font family */
+    line-height: 1.5; /* Adjust line height as needed */
+}
+.breadcrumb a {
+    color: red !important; /* This will change the text color to red */
+}
+
+.breadcrumb {
+    background-color: transparent !important; /* This will make the background transparent */
+}
+.btn-primary {
+    border: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " > " !important; /* Changes separator to > */
+}

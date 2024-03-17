@@ -1,0 +1,25 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .module-list {
+    flex-grow: 1; /* Allows module list to expand and fill available space */
+  }
+  
+  .status-section {
+    width: 300px; /* Adjust this width based on your preference */
+    margin-left: 20px; /* Adds some space between the module list and status section */
+  }
+  
+  .sidebar {
+    margin-top: 20px;
+  }
+  
+  /* Additional styles for layout and typography as needed */
+  

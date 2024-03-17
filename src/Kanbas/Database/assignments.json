@@ -1,0 +1,33 @@
+[
+  {
+    "_id": "A101",
+    "title": "Calculus",
+    "course": "RS101",
+    "description": "An introduction to calculus covering differentiation and integration.",
+    "points": 100,
+    "dueDate": "2024-06-01",
+    "availableFromDate": "2024-05-01",
+    "availableUntilDate": "2024-06-30"
+  },
+  {
+    "_id": "A102",
+    "title": "Linear Algebra",
+    "course": "RS101",
+    "description": "Foundational concepts in linear algebra, including vector spaces and linear mappings.",
+    "points": 100,
+    "dueDate": "2024-06-15",
+    "availableFromDate": "2024-05-15",
+    "availableUntilDate": "2024-07-15"
+  },
+  {
+    "_id": "A103",
+    "title": "Geometry",
+    "course": "RS101",
+    "description": "Exploration of Euclidean and non-Euclidean geometries.",
+    "points": 100,
+    "dueDate": "2024-07-01",
+    "availableFromDate": "2024-06-01",
+    "availableUntilDate": "2024-07-31"
+  }
+
+]
